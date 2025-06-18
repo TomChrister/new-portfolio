@@ -16,8 +16,21 @@ i {
   }
 }
 
+.skills li {
+  margin: 1rem 0;
+}
+
+ul li {
+  margin: 1rem 0;
+}
+
+
 .terminal {
-  p, li {
+  li {
+    color: white;
+  }
+
+  p {
     margin: 1rem 0;
     color: $white;
   }

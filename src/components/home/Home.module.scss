@@ -27,6 +27,16 @@ h2 {
   display: inline-block;
 }
 
+a i {
+  color: rgb(193, 118, 50);
+  padding: 0;
+}
+
+a i:hover {
+  color: rgb(111, 107, 160);
+  transition: color 0.3s ease;
+}
+
 a {
   color: $dark;
   transition: color 200ms ease;

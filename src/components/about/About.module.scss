@@ -8,6 +8,10 @@
   color: $green;
 }
 
+p {
+  line-height: 1.40;
+}
+
 .skills {
   columns: 1;
   @media only screen and (min-width: 940px) {
