@@ -17,7 +17,7 @@ function PortfolioBlock(props) {
                     <IconLink link={ source } title={ 'Source Code' } icon={ 'fa fa-code' }/>
                 </Box>
             </Box>
-            <p style={ { padding: '0 3rem 1rem 3rem', fontSize: '1rem' } }>Technology used: { tech }</p>
+            <p style={ { padding: '0 3rem 1rem 3rem', fontSize: '1rem', textAlign: 'center' } }>Technology used: { tech }</p>
         </Box>
     );
 }
